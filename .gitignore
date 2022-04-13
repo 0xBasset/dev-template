@@ -1,0 +1,6 @@
+cache/
+out/
+hh-cache/
+.env
+artifacts/
+node_modules/

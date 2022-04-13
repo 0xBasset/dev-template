@@ -1,0 +1,8 @@
+[default]
+src = 'contracts'
+out = 'out'
+test = 'test'
+libs = ['modules']
+verbosity = 3
+
+# See more config options https://github.com/gakonst/foundry/tree/master/config

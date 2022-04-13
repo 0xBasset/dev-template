@@ -1,0 +1,28 @@
+{
+  "name": "dev-template",
+  "version": "1.0.0",
+  "description": "A template for solidity projects, using Foundry as the main dev enviroment, coupled with Hardhat for scripts and deployments",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xBasset/dev-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xBasset/dev-template/issues"
+  },
+  "homepage": "https://github.com/0xBasset/dev-template#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.6.2"
+  }
+}
